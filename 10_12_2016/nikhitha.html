@@ -1,0 +1,90 @@
+<!-- Main document type of the web page-->
+<!DOCTYPE html>
+<!--This is the default language for HTML-->
+ <html lang="en">
+    <head>
+        <!--title - this is the title of this html file on Web Page-->
+        <title>Emplyee form</title>
+        <!-- This is the style seen on the Web Page-->
+        <style></style>
+        <!--Script: This is used to write javascript on the html file-->
+        <script></script>
+        <!--Thsi is the link used to link an external file and only CSS files and Images-->
+        <link>
+        <!--This is used to specify the base URL of the page-->
+        <base>
+        <!--This conatins the meta information description and keywords related to the Web page-->
+        <meta name="description" content="This is the Employee Form of the copmayXXX"/>
+        <meta name="keywords" content="Employee form,company XXX, employee, form,">
+        <meta charset="UTF-8">
+    </head>
+    <!--This is the body of th web page, i.e., the screen which is visible to the user-->
+    <!--This the rendering part of the Web Page-->
+    <body>
+        <!--Main article of the form-->
+        <article>
+            <!--Page header-->
+            <header>
+                <h2>Please Fill The Employee Form</h2>
+            </header>
+            <!--This is the main body of the Form-->
+            <section>
+                <form>
+                    <!--First Name-->
+                    <label for="First Name">First Nme:</label>
+                    <input type="text" id="First Name" name="first Name" placeholder="Enter your First Name"><br>
+                    <!--last Name-->
+                    <label for="Last Name">Last Name:</label>
+                    <input type="text" id="Last name" name="Last Name" placeholder="Enter your Last Name"><br>
+                    <!--Phone Number-->
+                    Phone Number:
+                    <input type="tel" name="Phone Number" placeholder="Enter your phone number"><br>
+                    <!--Gender-->
+                    Gender:
+                    <input type="radio" name="gender" value="male" >Male
+                    <input type="radio" name="gender" value="female">Female <br>
+                    <!--This fieldset shows the content in separate rectangle-->
+                    <fieldset>
+                        <!--This Legend give the name of the rectangle given by fieldset-->
+                        <legend>Create an account</legend>
+                        <!--Email Adress-->
+                       <label for="Email Address">Email Address:</label>
+                        <input type="text" id="Email Address" placeholder="Email Address">
+                        <!--Username-->
+                        <label for="User Name"> User Name</label>
+                        <input type="text" id="User Name" placeholder="User Name">
+                        <!--Password-->
+                        <label for="Password">Password:</label>
+                        <input type="password" id="Password" placeholder="Password">
+                        <!--confiem Password-->
+                        <label for="Confirm Password">Confirm Password</label>
+                        <input type="password" id="Confirm Password" placeholder="Confirm password"> <br>
+                        <!-- Create Button-->
+                        <input type="button" value="Create">
+                    </fieldset>
+                    <!--Checkbox-->
+                    Days worked<br>
+                    <input type="checkbox" Name="Days worked">
+                   <label for Monday>Monday</label><br>
+                    <input type="checkbox" Name="Days worked">
+                    <label for Tuesday>Tuseday</label><br>
+                    <input type="checkbox" Name="Days worked">
+                    <label for Wednesday>Wednesday</label><br>
+                    <input type="checkbox" Name="Days worked">
+                    <label for Thursady>Thursday</label><br>
+                    <input type="checkbox" Name="Days worked">
+                    <label for Friday>Friday</label><br>
+                    <input type="checkbox" Name="Days worked">
+                    <label for Saturday>Saturday</label><br>
+                    <input type="checkbox" Name="Days worked">
+                    <label for Sunday>Sunday</label><br>
+
+                    <input type="button" value="Submit">
+                    <input type="button" value="Reset">
+
+                </form>
+
+            </section>
+        </article>
+    </body>
+</html>
