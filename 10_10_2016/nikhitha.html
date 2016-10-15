@@ -5,25 +5,29 @@
     </head>
     <body>
         <article>
-            <header></header>
+            <header>
+                <h2>UI Training Application Form</h2>
+            </header>
             <section>
                 <form name="UI Training Applicatiion Form">
                     <fieldset>
                         <legend>Personal Information</legend>
-                            First Name:
-                            <input type="text" value="First Nmae">
+                            <label for="First Name">First Name</label>
+                            <input type="text" id="First Name" name="First Name" placeholder="First Name">
                              <br>
-                             Last Name:
-                            <input type="text" value="Last Name">
+                             <label for="Last Name">Last Name</label>
+                            <input type="text" id="Last Name" placeholder="last Name">
                               <br>
-                            Gender:
-                            <input type="radio" name="gender" value="Male">Male
-                              <input type="radio" name="gender" value="Female">Female
-                             <br>
-                            Contact Number:
-                            <input type="text" value="Phone number"> <br>
-                            Email Id:
-                            <input type="email" value="Email">
+                            <label for="gender" id="gender">Gender</label>
+                            <input type="radio" name="gender" id="Male" value="Male">
+                             <label for="Male">Male</label>
+                            <input type="radio" name="gender" id="female" value="Female">
+                             <label for="Female">Female</label>
+                        <br>
+                            <label for="Contact Number">Contact Number</label>
+                            <input type="text" id="Contact Number" placeholder="Contact Number"> <br>
+                            <label for="Email Address">Email Address</label>
+                            <input type="email" id="Email Address" placeholder="Email Address">
 
                     </fieldset>
                     <br>
