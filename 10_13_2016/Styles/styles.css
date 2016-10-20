@@ -1,0 +1,32 @@
+form{
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000;
+    display: inline-block;
+  }
+input{
+    display: block;
+}
+
+/*
+#submit{
+    background-color: #62a0dc;
+                }
+}
+#reset{
+    background-color: #ff0000;
+}*/
+
+button[type="submit"]{
+    background: #6262a0dc;
+}
+button[type="reset"]{
+    background: #ff0000;
+    color: #fff;
+    border: 2px
+    border-color: #000
+}
+/* I tried using the same format for changing background color for submit button. But it didn't work. can you please me in this?*/
+button[type="submit"]{
+    background: #6262a0dc;
+}
