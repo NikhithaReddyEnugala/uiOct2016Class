@@ -260,7 +260,9 @@ input[type="email"]:invalid + label{
 
 
 
-
+.row{
+    margin-top: 50px !important;
+}
 
 
 

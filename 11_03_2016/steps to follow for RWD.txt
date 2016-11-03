@@ -16,8 +16,9 @@ Steps to follow for RWD:
 		<div class="col-6"></div>
 	</div>
 	<div class="row">
-		<div class="col-6"></div>
-		<div class="col-6"></div>
+	    <div class="col-6"></div>
+		<div class="col-3"></div>
+		<div class="col-3"></div>
 	</div>
 6. since our column's content is float left, which breaks off from the document flow, we need to put these content back in the document flow. To do that, we say:
 	.row::after{
